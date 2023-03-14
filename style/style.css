@@ -1,0 +1,80 @@
+body {
+	background: rgb(77, 25, 77);
+}
+
+.face {
+	width: 300px;
+	height: 350px;
+	background: #dad2ec;
+	border: 7px solid black;
+	border-radius: 100px;
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.eye.left {
+	position: absolute;
+	top: 25%;
+	left: 22%;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	border: 5px solid black;
+	background: black;
+}
+.eye.right {
+	width: 20px;
+	height: 20px;
+	background: black;
+	border: 5px solid black;
+	border-radius: 15px;
+	position: absolute;
+	top: 27%;
+	right: 23%;
+}
+
+.mouth {
+	width: 250px;
+	height: 150px;
+	border: 5px solid black;
+	border-radius: 50px 50px 60px 60px;
+	background: salmon;
+	position: absolute;
+	top: 50%;
+	left: 7.5%;
+	z-index: 1;
+}
+
+.tooth {
+	width: 70px;
+	height: 60px;
+	border: 2px solid white;
+	background: white;
+}
+
+.tooth.right {
+	position: absolute;
+	top: 0;
+	left: 15%;
+	border-radius: 10px 0px 10px 10px;
+}
+.tooth.left {
+	position: absolute;
+	top: 0;
+	right: 15%;
+	border-radius: 0px 10px 10px 10px;
+}
+
+.tongue {
+	width: 150px;
+	height: 50px;
+	border: 2px solid rgb(236, 64, 64);
+	border-radius: 100px 100px 0 0;
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	background: rgb(236, 64, 64);
+}
